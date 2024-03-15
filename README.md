@@ -47,13 +47,13 @@ The rest of the data processing is done in the COPD_Death_Rates.ipynb notebook.
 ### Code structure
 Since the project is small there is only a folder called db containing all the data sources for the project. Furthermore there is the notebook COPD_Death_Rates.ipynb containing all the code linked to the analysis of the data, a file called LICENSE giving information of the license used, a README.md giving general and technical information on the project. 
 
-├── db
-│   ├── 
-│   ├── 
-│   ├── 
-├── .ipynb
-├── LICENSE
-└── README.md
+ ├── db
+ │   ├── 
+ │   ├── 
+ │   ├── 
+ ├── .ipynb
+ ├── LICENSE
+ └── README.md
 
 ### Results and evaluation
 Overall CODP crude death rates: 
