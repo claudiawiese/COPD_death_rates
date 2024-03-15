@@ -16,7 +16,7 @@ The project was done with Jupyter notebook 6.5.4. using the Anaconda navigator
 
 Python 3 was used for the project.
 
-The following python libraries have been used int he project:
+The following python libraries have been used in he project:
  - pandas
  - numpy
  - matplotlib
