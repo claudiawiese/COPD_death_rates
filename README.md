@@ -34,7 +34,7 @@ The following python libraries have been used in he project:
 ### Processing of Data Sources
 All the csv imported and used in the COPD_Death_Rates.ipynb notebook are based on the data sources mentioned above. 
 
-1. The UN_Pop_estimates_USA_UGA_WORLD_2019 is based on estimates of the first sheet in the WPP2022_POP_F01_1_POPULATION_SINGLE_AGE_BOTH_SEXES.xlsx fromm the UN Wormd Population Prospects. It 
+1. The UN_Pop_estimates_USA_UGA_WORLD_2019.csv is based on estimates of the first sheet in the WPP2022_POP_F01_1_POPULATION_SINGLE_AGE_BOTH_SEXES.xlsx from the UN Wormd Population Prospects. It 
    contains only the estimated population for Uganda, the US and the World in 2019 from age 0 to 100+.
    
 2. Ths WHO_World_Standard_Population_Distribution.csv contains a copy of  the column "WHO World Standard" of the WHO Standard Population Table (Table 1) in 'Ahmad OB, Boschi-Pinto C, Lopez AD,     
@@ -46,15 +46,15 @@ The rest of the data processing is done in the COPD_Death_Rates.ipynb notebook.
 
 ### Code structure
 Since the project is small there is only a folder called db containing all the data sources for the project. Furthermore there is the notebook COPD_Death_Rates.ipynb containing all the code linked to the analysis of the data, a file called LICENSE giving information of the license used, a README.md giving general and technical information on the project. 
-
+``` bash
  ├── db
- │   ├── 
- │   ├── 
- │   ├── 
- ├── .ipynb
+ │   ├── Age_specific_death_rates_COPD.csv
+ │   ├── UN_Pop_estimates_USA_UGA_WORLD_2019.csv
+ │   ├── WHO_World_Standard_Population_Distribution.csv
+ ├── COPD_Death_Rates.ipynb
  ├── LICENSE
  └── README.md
-
+```
 ### Results and evaluation
 Overall CODP crude death rates: 
 The total CODP crude death rate per 100,000 individuals for Uganda in 2019 is: 5.8
