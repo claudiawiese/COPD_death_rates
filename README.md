@@ -5,7 +5,7 @@ The crude death rate (CDR) is a demographic measure that represents the number o
 
 The CDR is calculated as followed:
 
-CDR = (Number of deaths / Population) * multiplier
+    CDR = (Number of deaths / Population) * multiplier
 
 We will work with the multiplier 100000.
 
