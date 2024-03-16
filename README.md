@@ -11,6 +11,7 @@ We will work with the multiplier 100000.
 
 To calculate the overall age standardized crude death rate we will apply the average standardized population rates from 2000 to 2025.
 
+
 ### Installation instructions
 The project was done with Jupyter notebook 6.5.4. using the Anaconda navigator
 
@@ -21,6 +22,7 @@ The following python libraries have been used in he project:
  - numpy
  - matplotlib
 
+
 ### Data sources
 1. UN World Population Prospects (2022) — Population Estimates 1950-2021: WPP2022_POP_F01_1_POPULATION_SINGLE_AGE_BOTH_SEXES.xlsx
   https://population.un.org/wpp/Download/Files/1_Indicators%20(Standard)/EXCEL_FILES/2_Population/WPP2022_POP_F01_1_POPULATION_SINGLE_AGE_BOTH_SEXES.xlsx
@@ -30,6 +32,7 @@ The following python libraries have been used in he project:
   
 3. A table of COPD death rates for the USA and Uganda in 2019 provided by the company Our World in Data
    https://owid.notion.site/Data-analysis-exercise-Our-World-in-Data-Junior-Data-Scientist-application-ab287a3c07264b4d91aadc436021b8c0
+
 
 ### Processing of Data Sources
 All the CSV files imported and used in the COPD_Death_Rates.ipynb notebook are based on the data sources mentioned above.
@@ -42,6 +45,7 @@ All the CSV files imported and used in the COPD_Death_Rates.ipynb notebook are b
 
 The rest of the data processing is done in the COPD_Death_Rates.ipynb notebook.
 
+
 ### Code structure
 Since the project is small there is only a folder called db containing all the data sources for the project. Furthermore there is the notebook COPD_Death_Rates.ipynb containing all the code linked to the analysis of the data, a file called LICENSE giving information of the license used, a README.md giving general and technical information on the project. 
 ``` bash
@@ -53,6 +57,7 @@ Since the project is small there is only a folder called db containing all the d
  ├── LICENSE
  └── README.md
 ```
+
 ### Results and evaluation
 Overall COPD crude death rates: The total COPD crude death rate per 100,000 individuals for Uganda in 2019 is 5.8. The total COPD crude death rate per 100,000 individuals for the United States in 2019 is 57.2.
 
@@ -60,8 +65,10 @@ The high COPD crude death rate for the US compared to Uganda can be explained by
 
 To be able to compare the results of the two countries more easily, we use the average standardized world population rates to get a similar age distribution for Uganda and the US. Applying these rates, we get: The overall COPD crude death rate per 100,000 individuals for Uganda is 28.7. The overall COPD crude death rate per 100,000 individuals for the United States is 28.4.
 
+
 ### Future work
 For future research on COPD crude death rates, we could include some other countries and regions. For example, we could compare the US COPD death rates to those of European countries. Additionally, we could include more Sub-Saharan countries to compare the death rates with those of Uganda.
+
 
 ### License
 MIT License
