@@ -13,7 +13,7 @@ To calculate the overall age standardized crude death rate we will apply the ave
 
 
 ### Installation instructions
-The project was done with Jupyter notebook 6.5.4. using Anaconda 3 
+The project was done with Jupyter notebook 6.5.4. using the Anaconda Navigator 2.5.1
 
 Python 3.11.5 was used for the project.
 
